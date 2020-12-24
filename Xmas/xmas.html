@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>고미의 크리스마스 카드</title>
+
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHr65JZOVo0zdk3sAXEfKXGUBE58tpCdXVUg&usqp=CAU"
+    />
+
+    <meta
+      property="og:image"
+      content="https://www.buckinghamtahoerentals.com/wp-content/uploads/2018/12/christmas-800x400.jpg"
+    />
+    <meta property="og:title" content="고미의 카드" />
+    <meta property="og:description" content="2020년을 함께해준 소중한 당신께" />
+
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+
+      @font-face {
+        font-family: "MapoGoldenPier";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "UhBeeSe_hyun";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "UhBeehyemong";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeehyemong.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "SangSangAnt";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/SangSangAnt.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <style>
+      * {
+        font-family: "UhBeehyemong";
+      }
+
+      body {
+        background-color: #9b070f;
+      }
+
+      .envelope {
+        background-color: ;
+        width: 200px;
+        height: 200px;
+
+        background-image: url("https://pngimg.com/uploads/envelope/envelope_PNG18366.png");
+        background-size: cover;
+        background-position: center;
+
+        cursor: pointer;
+
+        margin: 200px auto 0px auto;
+      }
+
+      .envelope-msg {
+        color: wheat;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .letter-close {
+        display: block;
+      }
+
+      .letter-open {
+        display: none;
+      }
+
+      .main-img {
+        background-color: white;
+        width: 320px;
+        height: 190px;
+
+        background-image: url("https://lh3.googleusercontent.com/-dgdBf-Jn1qNqc-NUOgrIwYs3iDwAzZklyD713TA-NXtOG1O3IITYxK306_H_f_WQtvikExHnYhOK-WhYcUm3FJqs50lBrJ5k7yWCr5Fq0ybOj-rpHsNmfeHl1Clmt9v-NZ-6v5O=w600-h315-p-k");
+        background-size: cover;
+        background-position: center;
+
+        margin: 100px auto 0px auto;
+        border-radius: 20px;
+        border: 3px solid white;
+        box-shadow: 0px 0px 10px 0px white;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+        marin-top: 30px;
+        magin-botton: 30px;
+      }
+
+      .msg-box {
+        font-family: "SangSangAnt";
+        color: brown;
+        background-color: ivory;
+        width: 400px;
+        height: 210px;
+        margin: auto;
+        padding: 30px;
+        font-size: 25px;
+        line-height: 30px;
+        box-shadow: 0px 0px 10px 0px white;
+      }
+
+      .from {
+        text-align: right;
+
+      }
+
+      @media screen and (max-width: 760px) {
+        .msg-box {
+          width: 300px;
+          padding: 20px;
+
+        }
+
+        .main-img {
+          width: 280px;
+          height: 170px;
+          margin: 70px auto 0px auto;
+        }
+
+        h1 {
+          font-size: 24px;
+        }
+
+        .envelope {
+          margin: 150px auto 0px auto;
+          coser
+        }
+    </style>
+
+    <script>
+      function open_letter() {
+        document.getElementsByClassName("letter-close")[0].style.display =
+          "none";
+        document.getElementsByClassName("letter-open")[0].style.display =
+          "block";
+      }
+
+      function img_click() {
+        alert("히히 알라뷰 💝");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="letter-close">
+      <div class="envelope" onclick="open_letter()"></div>
+      <h2 class="envelope-msg">봉투를 열어봐!</h2>
+    </div>
+
+    <div class="letter-open">
+      <div class="main-img" onclick="img_click()"></div>
+      <h1>🎄 Merry Christmas 🎄</h1>
+      <div class="msg-box">
+        소중한 내 친구 <br />
+        올해 참 고생많았어 <br />
+        너처럼 멋진 사람이 내 친구라 자랑스러워 <br />
+        힘들때도 소소한 행복을 찾아서 <br />
+        더 자주 행복한 사람이 되자 <br />
+        2021년에도 힘내서 잘 살아보세 ~
+        <p class="from">미송이가</p>
+      </div>
+    </div>
+  </body>
+</html>
